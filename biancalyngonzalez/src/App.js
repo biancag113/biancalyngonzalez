@@ -21,7 +21,6 @@ function App() {
         <img src={profile} alt="profile" height="20%" width="20%"/>;
         <Navbar />
         
-        <About />
         <Footer />
     </div>
     
