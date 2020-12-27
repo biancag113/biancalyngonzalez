@@ -1,0 +1,27 @@
+button {
+    position: relative;
+    background-color: transparent;
+    color: orange;
+    overflow: hidden;
+    float: center;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px;
+    border-style: solid;
+    border-color: orange;
+}
+
+button:hover {
+    color: white;
+    background-color: orange;
+  }
+
+#container {
+    margin: auto;
+    max-width: auto;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
