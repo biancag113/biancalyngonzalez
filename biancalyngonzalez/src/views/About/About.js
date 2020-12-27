@@ -1,9 +1,10 @@
 import React from 'react';
-import Amplify from 'aws-amplify';
+import './About.css';
 
-function About() {
-    return(
-        <div id='about'>
+const About = props => {
+  return (
+    <div id="about">
+      <h3>About</h3>
             <p>
                 I'm a full-stack developer and designer currently quarantining in San Francisco, California.
                 I began my career as a nurse and nurse practitioner and later worked for tech startups in the healthcare space.
@@ -33,8 +34,8 @@ function About() {
                 <li>Altium Designer</li>
                 <li>Cadence Allegro PCB Designer</li>
             </ul>
-        </div>
-    )
-}
+    </div>
+  );
+};
 
-export default About
+export default About;

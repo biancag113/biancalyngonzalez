@@ -1,19 +1,21 @@
 import React from 'react';
-import './Navbar.css';
+import './NavBar.css';
+import { Link } from 'react-router-dom';
 
-
-function Navbar() {
+export const NavBar = () => {
 
     return(
-        <div id="container">
-            <button>About</button>
-            <button>Projects</button>
-            <button>Videos</button>
-            <button>Frontline Coding</button>
-            <button>Blog</button>
-            <button>Contact</button>
-        </div>
+        <div id='navbar'>
+            <button><Link to="/About">About</Link></button>
+            <button><Link to="/Projects">Projects</Link></button>
+            <button><Link to="/Videos">Videos</Link></button>
+            <button><Link to="/Frontline">Frontline Coding</Link></button>
+            <button><Link to="/Blog">Blog</Link></button>
+            <button><Link to="/Contact">Contact</Link></button>
+      </div>
     )
 }
 
-export default Navbar
+export default NavBar;
+
+

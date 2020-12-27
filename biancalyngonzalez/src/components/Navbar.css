@@ -11,6 +11,7 @@ button {
     margin: 5px;
     border-style: solid;
     border-color: orange;
+    border-radius: 5px;
 }
 
 button:hover {
@@ -18,7 +19,7 @@ button:hover {
     background-color: orange;
   }
 
-#container {
+#navbar {
     margin: auto;
     max-width: auto;
     height: 40px;

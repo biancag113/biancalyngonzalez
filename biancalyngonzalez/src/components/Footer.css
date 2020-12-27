@@ -1,8 +1,8 @@
 #footer {
+    align-content: center;
     padding: 3px;
     background-color: orange;
     color: black;
-    position: absolute;
     left:0;
     bottom:0;
     right:0;

@@ -1,0 +1,60 @@
+#projects {
+    font-size: 10pt;
+    margin: 50px;
+    padding: 20px;
+    border: solid;
+    border-color: gray;
+    border-radius: 15px;
+}
+
+.App {
+    font-family: arial;
+    text-align: center;
+  }
+  
+  body {
+    background-color: white;
+  }
+
+  .portfolio {
+    flex-direction: block;
+    font-family: arial;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+    color: black;
+  }
+  
+  .project {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    border-color: gray;
+    border-style: solid;
+  }
+
+  
+  img {
+    width: 250px;
+    margin: 20px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 10px;
+  }
+  
+  a {
+    border-radius: 3px;
+    background-color: white;
+    color: orange;
+    padding: 2px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+  
