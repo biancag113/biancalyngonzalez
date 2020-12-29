@@ -1,10 +1,11 @@
 import React from 'react';
+import './Home.css';
 
 const Home = props => {
   return (
-    <div>
-      <h3>HomeView</h3>
-      <p> This is the home view of SPA</p>
+    <div id="home">
+      <h3>Annoucement</h3>
+      <p>December 26, 2020 - Site is now live!</p>
     </div>
   );
 };

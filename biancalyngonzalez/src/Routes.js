@@ -11,7 +11,6 @@ import NavBar from './components/NavBar.js';
 import Header from './components/Header.js';
 import Login from './components/Login.js';
 import profile from './components/profile.png'; 
-import Footer from './components/Footer.js';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 export const Routes = () => {
@@ -25,15 +24,14 @@ export const Routes = () => {
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
+        <Route exact path="/Home" component={Home} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Videos" component={Videos} />
         <Route exact path="/Blog" component={Blog} />
-        <Route exact path="/Fontline" component={Frontline} />
+        <Route exact path="/Frontline" component={Frontline} />
         <Route exact path="/Contact" component={Contact} />
       </Switch>
-      <Footer />
-
     </div>
   );
 };

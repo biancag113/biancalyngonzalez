@@ -1,10 +1,11 @@
 import React from 'react';
+import './Videos.css';
 
 const Videos = props => {
   return (
-    <div>
+    <div id="videos">
       <h3>Videos</h3>
-      <p> This is the videos view of SPA</p>
+      <p> Coming soon!</p>
     </div>
   );
 };
