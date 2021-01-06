@@ -9,8 +9,8 @@ const Projects = props => {
           <div className="project">
             <Project
               name={"Point of Care"}
-              git={"https://github.com/biancag113/poct-frontend"}
-              live={"https://dev.d1d9jbnzeugziq.amplifyapp.com/"}
+              git={"https://github.com/biancag113/p4-poct-cv"}
+              live={"https://dev.d1zmy4ykz8dpuj.amplifyapp.com/"}
               img={
                 "https://portfolio-photos-bg.s3-us-west-2.amazonaws.com/poct.jpg"
               }
